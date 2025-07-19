@@ -1,0 +1,65 @@
+[
+  {
+    "name": "STAYC",
+    "name_kor": "스테이씨",
+    "preview1": "https://i.pinimg.com/474x/1d/5d/98/1d5d98da197eb47ae82914f441b651f0.jpg",
+    "preview2": "https://i.pinimg.com/474x/83/43/af/8343af857ca93dc1dabf1a6bcfa39401.jpg",
+    "preview3": "https://i.pinimg.com/474x/fe/54/b1/fe54b1738d7c073e82e322908f4f80a3.jpg"
+  },
+  {
+    "name": "gif",
+    "name_kor": "gif",
+    "preview1": "https://i.pinimg.com/originals/14/5d/d4/145dd4348d647325aa18161c9fd9459c.gif",
+    "preview2": "https://i.pinimg.com/originals/dc/7a/6e/dc7a6eeced64aee9fd1b4c5bad633eac.gif",
+    "preview3": "https://i.pinimg.com/originals/bd/bf/64/bdbf640316ff165d2149e5646ec41d7b.gif"
+  },
+  {
+    "name": "icon",
+    "name_kor": "아이콘",
+    "preview1": "https://i.pinimg.com/474x/aa/c3/04/aac30461d91d008148c10f986576bbee.jpg",
+    "preview2": "https://i.pinimg.com/474x/12/bd/fc/12bdfc106d402d6ee771e44b6f86f050.jpg",
+    "preview3": "https://i.pinimg.com/474x/1e/f3/82/1ef382443ee416f96e2cd2caef5a7a98.jpg"
+  },
+  {
+    "name": "SUMIN",
+    "name_kor": "수민",
+    "preview1": "https://i.pinimg.com/474x/e4/53/5c/e4535cad6412aed6d640f10e31cebac4.jpg",
+    "preview2": "https://i.pinimg.com/474x/5b/54/19/5b54196a50bacd459328011ecdcd832e.jpg",
+    "preview3": "https://i.pinimg.com/474x/1a/3c/63/1a3c63db289dc976aa0d5bb73d9ae8f0.jpg"
+  },
+  {
+    "name": "SIEUN",
+    "name_kor": "시은",
+    "preview1": "https://i.pinimg.com/474x/e8/bd/91/e8bd91071111d5826b76cd276226a370.jpg",
+    "preview2": "https://i.pinimg.com/474x/36/19/66/361966495f9275b5620675e71cf502dc.jpg",
+    "preview3": "https://i.pinimg.com/474x/3f/cd/23/3fcd23113a0f94c039bfb116b09f014e.jpg"
+  },
+    {
+    "name": "ISA",
+    "name_kor": "아이사",
+    "preview1": "https://i.pinimg.com/474x/fd/55/63/fd5563e38d9fbe910493f96894b9eda8.jpg",
+    "preview2": "https://i.pinimg.com/474x/90/f1/08/90f10808e9500dbd1a388e7d80e175cb.jpg",
+    "preview3": "https://i.pinimg.com/474x/a4/60/3e/a4603ec189b0d60681827bd2606eef8d.jpg"
+  },
+     {
+    "name": "SEEUN",
+    "name_kor": "세은",
+    "preview1": "https://i.pinimg.com/474x/9b/c3/0d/9bc30d63cbb9ead8718b141d1bd5db13.jpg",
+    "preview2": "https://i.pinimg.com/474x/a3/7a/ba/a37aba340a796d4e72ccce534655393e.jpg",
+    "preview3": "https://i.pinimg.com/474x/17/3f/ef/173fef2bbed7d25fc9607cc5d37d3919.jpg"
+  },
+      {
+    "name": "YOON",
+    "name_kor": "윤",
+    "preview1": "https://i.pinimg.com/474x/d2/9a/04/d29a042d6f2113d60299c49feadc4719.jpg",
+    "preview2": "https://i.pinimg.com/474x/03/23/d5/0323d540f409781498c65ffbf8d6b0fa.jpg",
+    "preview3": "https://i.pinimg.com/474x/56/1c/85/561c85ad342a68f00bf847b50690d9a1.jpg"
+  },
+  {
+    "name": "J",
+    "name_kor": "재이",
+    "preview1": "https://i.pinimg.com/474x/0c/4f/93/0c4f932635de4e8a527ab7e19c978dc3.jpg",
+    "preview2": "https://i.pinimg.com/474x/54/ff/37/54ff378dd66a47badb8c51f8c560603a.jpg",
+    "preview3": "https://i.pinimg.com/474x/b0/b8/01/b0b8018327a444bf8de6afaec13b91e2.jpg"
+  }
+]
