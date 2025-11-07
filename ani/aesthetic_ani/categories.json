@@ -6,12 +6,19 @@
 	    "preview2": "https://i.pinimg.com/474x/d4/42/15/d44215853c16985823045d839a03fd02.jpg",
 	    "preview3": "https://i.pinimg.com/474x/77/67/ed/7767ed4ec0a2f3fad97dd7e1510174ef.jpg"
 	  },
+  	{
+  		"name": "Demon Slayer",
+  		"name_kor": "귀멸의 칼날",
+  		"preview1": "https://i.pinimg.com/474x/33/da/ba/33daba8d6f220e619c85d94716115340.jpg",
+  		"preview2": "https://i.pinimg.com/474x/d3/3c/7a/d33c7a09943a580d83eafd207f960d47.jpg",
+  		"preview3": "https://i.pinimg.com/474x/21/2a/bc/212abc3868860aa144ded4072cce9f2e.jpg"
+  	},
 	{
 		"name": "Attack on Titan",
 		"name_kor": "진격의 거인",
-		"preview1": "https://i.pinimg.com/474x/bf/52/96/bf5296cde170cc23d3006ed5ed21b6a7.jpg",
-		"preview2": "https://i.pinimg.com/474x/ed/6a/d4/ed6ad4eb2d060abb24a9a972f922a537.jpg",
-		"preview3": "https://i.pinimg.com/474x/bf/44/45/bf44457bbfd405014395bcbb86317c4d.jpg"
+		"preview1": "https://i.pinimg.com/474x/44/18/5b/44185b4c583ebb9b241c05a4c8a44e82.jpg",
+		"preview2": "https://i.pinimg.com/474x/b6/11/1a/b6111ae15cf6cb2cd9c6b2bff0020aa6.jpg",
+		"preview3": "https://i.pinimg.com/474x/3a/5c/58/3a5c58f97e2411d7dc8e363dfaa1fab7.jpg"
 	},
 	{
 		"name": "BLACK CLOVER",
@@ -33,13 +40,6 @@
 		"preview1": "https://i.pinimg.com/474x/8d/4e/65/8d4e655191692d7f739db403a44b45d4.jpg",
 		"preview2": "https://i.pinimg.com/474x/9a/26/0a/9a260af79a0ffc6cb2aab0b7e482ff3c.jpg",
 		"preview3": "https://i.pinimg.com/474x/94/0b/de/940bdeac5972679b39a338c61190249e.jpg"
-	},
-	{
-		"name": "Demon Slayer",
-		"name_kor": "귀멸의 칼날",
-		"preview1": "https://i.pinimg.com/474x/9c/5a/a9/9c5aa90d586be84029498bd48a0b0020.jpg",
-		"preview2": "https://i.pinimg.com/474x/2f/7a/23/2f7a2301cc7bbea9b5c3744124f9c3dc.jpg",
-		"preview3": "https://i.pinimg.com/474x/a1/fe/94/a1fe94673eb48244d0648c63fcaef0d4.jpg"
 	},
 	{
 		"name": "Doraemon",
