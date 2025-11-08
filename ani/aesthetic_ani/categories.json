@@ -21,6 +21,27 @@
 		"preview3": "https://i.pinimg.com/474x/3a/5c/58/3a5c58f97e2411d7dc8e363dfaa1fab7.jpg"
 	},
 	{
+		"name": "NARUTO",
+		"name_kor": "나루토",
+		"preview1": "https://i.pinimg.com/474x/08/e7/4a/08e74affe517d07c68595473c701c315.jpg",
+		"preview2": "https://i.pinimg.com/474x/6f/95/c6/6f95c670d4aaa55d0db16913ff6103b2.jpg",
+		"preview3": "https://i.pinimg.com/474x/7c/75/12/7c75124c4e441af89dd748aaea363081.jpg"
+	},
+	{
+		"name": "ONE PIECE",
+		"name_kor": "원피스",
+		"preview1": "https://i.pinimg.com/474x/0b/1e/07/0b1e07c43f8651ee3febc6be3dade57f.jpg",
+		"preview2": "https://i.pinimg.com/474x/16/8f/5d/168f5d9dd0d8df8582d27023746b51ee.jpg",
+		"preview3": "https://i.pinimg.com/474x/19/29/fa/1929fa2692a855252713ed3c73fa382f.jpg"
+	},
+	{
+		"name": "Mushoku Tensei",
+		"name_kor": "무직전생",
+		"preview1": "https://i.pinimg.com/474x/a4/d5/fd/a4d5fdda8b5a69aa74e59a3b15ff0080.jpg",
+		"preview2": "https://i.pinimg.com/474x/e3/d3/78/e3d3788718a6dac9fab2928c7be9cd59.jpg",
+		"preview3": "https://i.pinimg.com/474x/50/2f/36/502f36130a39f03226401ae4980f0f74.jpg"
+	},
+	{
 		"name": "BLACK CLOVER",
 		"name_kor": "블랙 클로버",
 		"preview1": "https://i.pinimg.com/474x/de/da/11/deda1113eb6c1fdf40e2e000c13014b1.jpg",
@@ -110,20 +131,6 @@
 		"preview1": "https://i.pinimg.com/474x/6a/65/6f/6a656fc8faa6484bb9b4e4d8e9eee619.jpg",
 		"preview2": "https://i.pinimg.com/474x/d9/fa/77/d9fa7739318dd8a0bd735d30401d1d64.jpg",
 		"preview3": "https://i.pinimg.com/474x/e3/dd/80/e3dd804ec123b1a2486eba1edebdda8f.jpg"
-	},
-	{
-		"name": "Mushoku Tensei",
-		"name_kor": "무직전생",
-		"preview1": "https://i.pinimg.com/474x/a4/d5/fd/a4d5fdda8b5a69aa74e59a3b15ff0080.jpg",
-		"preview2": "https://i.pinimg.com/474x/e3/d3/78/e3d3788718a6dac9fab2928c7be9cd59.jpg",
-		"preview3": "https://i.pinimg.com/474x/50/2f/36/502f36130a39f03226401ae4980f0f74.jpg"
-	},
-	{
-		"name": "NARUTO",
-		"name_kor": "나루토",
-		"preview1": "https://i.pinimg.com/474x/08/e7/4a/08e74affe517d07c68595473c701c315.jpg",
-		"preview2": "https://i.pinimg.com/474x/6f/95/c6/6f95c670d4aaa55d0db16913ff6103b2.jpg",
-		"preview3": "https://i.pinimg.com/474x/7c/75/12/7c75124c4e441af89dd748aaea363081.jpg"
 	},
 	{
 		"name": "OSHI NO KO",
