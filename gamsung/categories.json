@@ -63,11 +63,25 @@
     "preview3": "https://i.pinimg.com/474x/6a/63/62/6a6362111276e1ab7b15557a1f4c6490.jpg"
   },
   {
+    "name": "Matcha",
+    "name_kor": "말차",
+    "preview1": "https://i.pinimg.com/474x/45/2e/d1/452ed1dd2921a7447a3551154faadb74.jpg",
+    "preview2": "https://i.pinimg.com/474x/0e/4d/ff/0e4dff6c49acad24922a5c8911137c3f.jpg",
+    "preview3": "https://i.pinimg.com/474x/6c/07/1f/6c071fe1d59f225edb8adb3f0a2b1825.jpg"
+  },
+  {
     "name": "Aesthetic Food",
     "name_kor": "감성 음식사진",
     "preview1": "https://i.pinimg.com/474x/18/eb/09/18eb09200a8745be329cad9bfdd294d7.jpg",
     "preview2": "https://i.pinimg.com/474x/fc/5d/6b/fc5d6b3317a8968639f3f05bf7aacfc6.jpg",
     "preview3": "https://i.pinimg.com/474x/67/dd/96/67dd96b6467597f1fc76f1776bf8c932.jpg"
+  },
+  {
+    "name": "Minimal",
+    "name_kor": "미니멀",
+    "preview1": "https://i.pinimg.com/474x/96/59/3a/96593aba4960fa6b92b2664e22857947.jpg",
+    "preview2": "https://i.pinimg.com/474x/f7/59/a4/f759a4a4cb857443888db3911a6cfd60.jpg",
+    "preview3": "https://i.pinimg.com/474x/52/8a/c1/528ac1709297264619fef9b92c8109dd.jpg"
   },
   {
     "name": "Black",
