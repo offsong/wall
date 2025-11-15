@@ -21,6 +21,27 @@
 		"preview3": "https://i.pinimg.com/474x/3a/5c/58/3a5c58f97e2411d7dc8e363dfaa1fab7.jpg"
 	},
 	{
+		"name": "NARUTO",
+		"name_kor": "나루토",
+		"preview1": "https://i.pinimg.com/474x/fa/1f/b4/fa1fb4d9479c734839b7cf7436775f48.jpg",
+		"preview2": "https://i.pinimg.com/474x/e3/76/05/e37605249ffd540e3732fc9e228f8328.jpg",
+		"preview3": "https://i.pinimg.com/474x/75/81/af/7581afb42fcebb70ef646731186e4228.jpg"
+	},
+	{
+		"name": "ONE PIECE",
+		"name_kor": "원피스",
+		"preview1": "https://i.pinimg.com/474x/0b/1e/07/0b1e07c43f8651ee3febc6be3dade57f.jpg",
+		"preview2": "https://i.pinimg.com/474x/16/8f/5d/168f5d9dd0d8df8582d27023746b51ee.jpg",
+		"preview3": "https://i.pinimg.com/474x/19/29/fa/1929fa2692a855252713ed3c73fa382f.jpg"
+	},
+	{
+		"name": "Mushoku Tensei",
+		"name_kor": "무직전생",
+		"preview1": "https://i.pinimg.com/474x/a4/d5/fd/a4d5fdda8b5a69aa74e59a3b15ff0080.jpg",
+		"preview2": "https://i.pinimg.com/474x/e3/d3/78/e3d3788718a6dac9fab2928c7be9cd59.jpg",
+		"preview3": "https://i.pinimg.com/474x/50/2f/36/502f36130a39f03226401ae4980f0f74.jpg"
+	},
+	{
 		"name": "BLACK CLOVER",
 		"name_kor": "블랙 클로버",
 		"preview1": "https://i.pinimg.com/474x/de/da/11/deda1113eb6c1fdf40e2e000c13014b1.jpg",
@@ -30,9 +51,9 @@
 	{
 		"name": "Cardcaptor Sakura",
 		"name_kor": "카드캡터 사쿠라",
-		"preview1": "https://i.pinimg.com/474x/f5/41/4b/f5414be6b9942d97f307748b1dd20e03.jpg",
-		"preview2": "https://i.pinimg.com/474x/14/72/78/147278ebfa27115588ef86b9811b7797.jpg",
-		"preview3": "https://i.pinimg.com/474x/d5/53/59/d553596c6e7068d69774f0537712f83d.jpg"
+		"preview1": "https://i.pinimg.com/474x/ac/d3/ce/acd3ceb29e58555cc4bca9d96d3df22c.jpg",
+		"preview2": "https://i.pinimg.com/474x/a9/86/49/a98649f5dca637cfe6af6027eb1d3578.jpg",
+		"preview3": "https://i.pinimg.com/474x/85/62/bc/8562bce78f8247a99623b2417211246e.jpg"
 	},
 	{
 		"name": "Chainsaw Man",
@@ -91,6 +112,13 @@
 		"preview3": "https://i.pinimg.com/474x/71/68/14/7168147094b7e7ad663c132eba3ec386.jpg"
 	},
 	{
+		"name": "My Hero Academia",
+		"name_kor": "마이 히어로 아카데미아",
+		"preview1": "https://i.pinimg.com/474x/17/ff/fc/17fffcc84046ea4fab835cfd37a25c52.jpg",
+		"preview2": "https://i.pinimg.com/474x/5b/70/05/5b70056ae69f842dfe35928b68fa03f9.jpg",
+		"preview3": "https://i.pinimg.com/474x/ee/b9/88/eeb98858d83c9c9a655930077084af81.jpg"
+	},
+	{
 		"name": "Gintama",
 		"name_kor": "은혼",
 		"preview1": "https://i.pinimg.com/474x/de/9e/52/de9e52183830a1eb06dc5d085e126464.jpg",
@@ -110,20 +138,6 @@
 		"preview1": "https://i.pinimg.com/474x/6a/65/6f/6a656fc8faa6484bb9b4e4d8e9eee619.jpg",
 		"preview2": "https://i.pinimg.com/474x/d9/fa/77/d9fa7739318dd8a0bd735d30401d1d64.jpg",
 		"preview3": "https://i.pinimg.com/474x/e3/dd/80/e3dd804ec123b1a2486eba1edebdda8f.jpg"
-	},
-	{
-		"name": "Mushoku Tensei",
-		"name_kor": "무직전생",
-		"preview1": "https://i.pinimg.com/474x/a4/d5/fd/a4d5fdda8b5a69aa74e59a3b15ff0080.jpg",
-		"preview2": "https://i.pinimg.com/474x/e3/d3/78/e3d3788718a6dac9fab2928c7be9cd59.jpg",
-		"preview3": "https://i.pinimg.com/474x/50/2f/36/502f36130a39f03226401ae4980f0f74.jpg"
-	},
-	{
-		"name": "NARUTO",
-		"name_kor": "나루토",
-		"preview1": "https://i.pinimg.com/474x/08/e7/4a/08e74affe517d07c68595473c701c315.jpg",
-		"preview2": "https://i.pinimg.com/474x/6f/95/c6/6f95c670d4aaa55d0db16913ff6103b2.jpg",
-		"preview3": "https://i.pinimg.com/474x/7c/75/12/7c75124c4e441af89dd748aaea363081.jpg"
 	},
 	{
 		"name": "OSHI NO KO",
