@@ -1,54 +1,5 @@
 [
 	{
-		"name": "RANDOM",
-		"name_kor": "RANDOM",
-		"preview1": "https://i.pinimg.com/474x/c5/e8/3a/c5e83a3129c3507aa2c218197dd786f4.jpg",
-		"preview2": "https://i.pinimg.com/474x/79/66/43/796643e45f4df697135075875348d866.jpg",
-		"preview3": "https://i.pinimg.com/474x/1f/68/42/1f6842a9f0c58a320726a9c0a656ade7.jpg"
-	},
-	{
-		"name": "Typhoon Family",
-		"name_kor": "태풍상사",
-		"preview1": "https://i.pinimg.com/474x/03/ed/c1/03edc1e2965e95828199b3c3ef35a711.jpg",
-		"preview2": "https://i.pinimg.com/474x/f0/bf/de/f0bfdeb96aeab27bdf9724ce57b0cc34.jpg",
-		"preview3": "https://i.pinimg.com/474x/66/8e/15/668e15fd44a8b862514a7b8422de6769.jpg"
-	},
-	{
-		"name": "Genie, Make A Wish",
-		"name_kor": "다 이루어질지니",
-		"preview1": "https://i.pinimg.com/474x/ba/78/62/ba78629beb4670dd81fd9512c7c3b785.jpg",
-		"preview2": "https://i.pinimg.com/474x/a1/3f/36/a13f36ad827148ecbfb50f0f9a31a815.jpg",
-		"preview3": "https://i.pinimg.com/474x/7c/63/8d/7c638de1966fbeacb81a9b2a8cb0180c.jpg"
-	},
-	{
-		"name": "Bon Appetit, Your Majesty",
-		"name_kor": "폭군의 셰프",
-		"preview1": "https://i.pinimg.com/474x/d5/ac/9f/d5ac9ff6db5ee09dc7979ea55af9f916.jpg",
-		"preview2": "https://i.pinimg.com/474x/dd/7e/1f/dd7e1f453646bac7fe583d3f7e681dd9.jpg",
-		"preview3": "https://i.pinimg.com/474x/fd/72/8c/fd728c5e19712594553562ac111296eb.jpg"
-	},
-	{
-		"name": "Head Over Heels",
-		"name_kor": "견우와 선녀",
-		"preview1": "https://i.pinimg.com/474x/60/15/cf/6015cf097e63a6769787032263713083.jpg",
-		"preview2": "https://i.pinimg.com/474x/a5/6a/3e/a56a3ed4399442ffd6f4579105121711.jpg",
-		"preview3": "https://i.pinimg.com/474x/d7/30/64/d7306428c2befd0107ba3e9d0b65137f.jpg"
-	},
-	{
-		"name": "Our Unwritten Seoul",
-		"name_kor": "미지의 서울",
-		"preview1": "https://i.pinimg.com/474x/2a/e2/ae/2ae2aeb92e7b880b5d5d6e94beb2e5d1.jpg",
-		"preview2": "https://i.pinimg.com/474x/77/8d/c6/778dc6188cd725ec9aef1e994c1d6fdd.jpg",
-		"preview3": "https://i.pinimg.com/474x/d3/41/2d/d3412d3c9aed4259e9f8d050dff24bc5.jpg"
-	},
-	{
-		"name": "Good Boy",
-		"name_kor": "굿보이",
-		"preview1": "https://i.pinimg.com/474x/7e/b8/f1/7eb8f10dbb0a4030a2669ae98c62c4d4.jpg",
-		"preview2": "https://i.pinimg.com/474x/89/e6/9b/89e69b38416a0fac9b9933ce67b3d748.jpg",
-		"preview3": "https://i.pinimg.com/474x/fd/72/8c/fd728c5e19712594553562ac111296eb.jpg"
-	},
-	{
 		"name": "When Life Gives You Tangerines",
 		"name_kor": "폭싹 속았수다",
 		"preview1": "https://i.pinimg.com/474x/95/46/1d/95461d7be99c9a864fbda18aa6cd16ff.jpg",
@@ -68,13 +19,6 @@
 		"preview1": "https://i.pinimg.com/474x/2a/31/5c/2a315cb97506e38eee0381a19de1b41a.jpg",
 		"preview2": "https://i.pinimg.com/474x/ad/24/13/ad24136ea3497dcbd0d0519be0d05e28.jpg",
 		"preview3": "https://i.pinimg.com/474x/b4/92/ed/b492ed0e087b5138cb8722a040417318.jpg"
-	},
-	{
-		"name": "Mr. Plankton",
-		"name_kor": "Mr. 플랑크톤",
-		"preview1": "https://i.pinimg.com/474x/0f/0f/01/0f0f01fb49c50730d65e0dafc113c431.jpg",
-		"preview2": "https://i.pinimg.com/474x/49/63/30/496330053d7c8af16884c8e4476c3f50.jpg",
-		"preview3": "https://i.pinimg.com/474x/76/77/69/7677695f0dea77531eb38a9c8f27027d.jpg"
 	},
 	{
 		"name": "Family By Choice",
@@ -101,21 +45,21 @@
 		"name": "LOVE NEXT DOOR",
 		"name_kor": "엄마친구아들",
 		"preview1": "https://i.pinimg.com/474x/e6/f0/00/e6f0008d455c9a882d821c0143c44b8d.jpg",
-		"preview2": "https://i.pinimg.com/474x/26/ba/e4/26bae4a01377406f4ee924e066652c9c.jpg",
+		"preview2": "https://i.pinimg.com/736x/26/ba/e4/26bae4a01377406f4ee924e066652c9c.jpg",
 		"preview3": "https://i.pinimg.com/474x/ea/5a/68/ea5a681efbf05caf0bfe56527acb1a62.jpg"
 	},
 	{
 		"name": "The Midnight Romance",
 		"name_kor": "졸업",
-		"preview1": "https://i.pinimg.com/474x/dd/63/36/dd6336853471a092e8fcf4c13da917e6.jpg",
-		"preview2": "https://i.pinimg.com/474x/f4/06/fc/f406fc3ace560dd03a902519fd5e176e.jpg",
-		"preview3": "https://i.pinimg.com/474x/26/ce/db/26cedb233f6d303feaa69ac50b430d8e.jpg"
+		"preview1": "https://i.pinimg.com/736x/dd/63/36/dd6336853471a092e8fcf4c13da917e6.jpg",
+		"preview2": "https://i.pinimg.com/736x/f4/06/fc/f406fc3ace560dd03a902519fd5e176e.jpg",
+		"preview3": "https://i.pinimg.com/736x/26/ce/db/26cedb233f6d303feaa69ac50b430d8e.jpg"
 	},
 	{
 		"name": "My Demon",
 		"name_kor": "마이 데몬",
 		"preview1": "https://i.pinimg.com/474x/6e/e6/b0/6ee6b01bb8197e523ab2e3b3b8dccadc.jpg",
-		"preview2": "https://i.pinimg.com/474x/26/ba/e4/26bae4a01377406f4ee924e066652c9c.jpg",
+		"preview2": "https://i.pinimg.com/736x/26/ba/e4/26bae4a01377406f4ee924e066652c9c.jpg",
 		"preview3": "https://i.pinimg.com/474x/8d/c7/8d/8dc78d159771984c1743af9659a3ca28.jpg"
 	},
 	{
