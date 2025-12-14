@@ -5,11 +5,14 @@ from collections import defaultdict
 from typing import Dict, List, Tuple
 
 
+# 🔹 premium 강제 true 처리할 카테고리 화이트리스트
+PREMIUM_WHITELIST = {"LIVE", "EVENT", "HOT"}
+
+
 def format_entries(entries: List[dict]) -> str:
     from collections import defaultdict
     import json
 
-    # 1) 카테고리별 그룹화 (등장 순서 유지)
     grouped = defaultdict(list)
     order = []
     for item in entries:
@@ -18,14 +21,12 @@ def format_entries(entries: List[dict]) -> str:
             order.append(cat)
         grouped[cat].append(item)
 
-    # 2) 출력 생성
     lines = ["["]
     first_group = True
 
     for cat in order:
         group_items = grouped[cat]
 
-        # 그룹 사이에 빈 줄 3줄 삽입
         if not first_group:
             lines.append("")
             lines.append("")
@@ -33,7 +34,6 @@ def format_entries(entries: List[dict]) -> str:
 
         first_group = False
 
-        # 그룹의 모든 항목 출력
         for item in group_items:
             name = json.dumps(item.get("name", ""), ensure_ascii=True)
             url = json.dumps(item.get("url", ""), ensure_ascii=True)
@@ -44,13 +44,11 @@ def format_entries(entries: List[dict]) -> str:
                 f'  {{ "name": {name}, "url": {url}, "categories": {cat_json}, "premium": {premium} }},'
             )
 
-    # 마지막 콤마 제거
     if len(lines) > 1 and lines[-1].endswith(","):
         lines[-1] = lines[-1][:-1]
 
     lines.append("]")
     return "\n".join(lines) + "\n"
-
 
 
 def rebalance(entries: List[dict], ratio: float, min_true: int) -> Tuple[int, Dict[str, Tuple[int, int]]]:
@@ -63,17 +61,33 @@ def rebalance(entries: List[dict], ratio: float, min_true: int) -> Tuple[int, Di
 
     changes = 0
     stats: Dict[str, Tuple[int, int]] = {}
+
     for key, idxs in groups.items():
         total = len(idxs)
         if total == 0:
             continue
+
+        normalized_key = str(key).strip().upper()
+
+        # 🔹 화이트리스트 카테고리 → 전부 true
+        if normalized_key in PREMIUM_WHITELIST:
+            stats[key] = (total, total)
+            for data_idx in idxs:
+                if entries[data_idx].get("premium") is not True:
+                    entries[data_idx]["premium"] = True
+                    changes += 1
+            continue
+
+        # 🔹 기존 비율 로직
         true_count = max(min_true, int(total * ratio))
         stats[key] = (true_count, total)
+
         for order, data_idx in enumerate(idxs):
             target = order < true_count
             if entries[data_idx].get("premium") != target:
                 entries[data_idx]["premium"] = target
                 changes += 1
+
     return changes, stats
 
 
@@ -93,17 +107,18 @@ def process_file(path: str, ratio: float, min_true: int, dry_run: bool = False) 
     changes, stats = rebalance(data, ratio, min_true)
     formatted = format_entries(data)
     needs_format = formatted != original_text
+
     wrote_file = (changes > 0 or needs_format) and not dry_run
     if wrote_file:
         with open(path, "w", encoding="utf-8", newline="\n") as f:
             f.write(formatted)
+
     return changes, stats, changes > 0 or needs_format
 
 
 def main():
     parser = argparse.ArgumentParser(description="Rebalance premium flags in wallpapers.json files.")
 
-    # 기본 루트 폴더
     parser.add_argument("-r", "--root", default=".", help="기준 폴더 (기본: 현재 위치)")
     parser.add_argument("--ratio", type=float, default=0.2, help="premium 비율 (기본: 0.2)")
     parser.add_argument("--min-true", type=int, default=1, help="그룹당 최소 premium 개수 (기본: 1)")
@@ -113,17 +128,23 @@ def main():
 
     total_files = 0
     updated_files = 0
+
     for dirpath, _, filenames in os.walk(args.root):
         if "wallpapers.json" not in filenames:
             continue
+
         total_files += 1
         path = os.path.join(dirpath, "wallpapers.json")
         changes, stats, wrote_file = process_file(path, args.ratio, args.min_true, args.dry_run)
+
         if wrote_file:
             updated_files += 1
-        print(f"{'[DRY]' if args.dry_run else 'DONE'} {path}: "
-              f"{'changed' if wrote_file else 'no-change'}; "
-              f"groups={', '.join(f'{k}:{v[0]}/{v[1]}' for k, v in stats.items())}")
+
+        print(
+            f"{'[DRY]' if args.dry_run else 'DONE'} {path}: "
+            f"{'changed' if wrote_file else 'no-change'}; "
+            f"groups={', '.join(f'{k}:{v[0]}/{v[1]}' for k, v in stats.items())}"
+        )
 
     print(f"총 파일: {total_files}, 수정된 파일: {updated_files}")
 
