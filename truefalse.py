@@ -9,23 +9,21 @@ from typing import Dict, List, Tuple
 PREMIUM_WHITELIST = {"LIVE", "EVENT", "HOT"}
 
 
-def format_entries(entries: List[dict]) -> str:
-    from collections import defaultdict
-    import json
-
+def format_entries(entries: List[dict], group_by: str = "categories") -> str:
+    """같은 필드 값을 가진 항목을 최초 등장 순서대로 묶어 출력한다."""
     grouped = defaultdict(list)
     order = []
     for item in entries:
-        cat = item.get("categories", "")
-        if cat not in grouped:
-            order.append(cat)
-        grouped[cat].append(item)
+        group_value = item.get(group_by, "")
+        if group_value not in grouped:
+            order.append(group_value)
+        grouped[group_value].append(item)
 
     lines = ["["]
     first_group = True
 
-    for cat in order:
-        group_items = grouped[cat]
+    for group_value in order:
+        group_items = grouped[group_value]
 
         if not first_group:
             lines.append("")
@@ -91,7 +89,13 @@ def rebalance(entries: List[dict], ratio: float, min_true: int) -> Tuple[int, Di
     return changes, stats
 
 
-def process_file(path: str, ratio: float, min_true: int, dry_run: bool = False) -> Tuple[int, Dict[str, Tuple[int, int]], bool]:
+def process_file(
+    path: str,
+    ratio: float,
+    min_true: int,
+    dry_run: bool = False,
+    group_by: str = "categories",
+) -> Tuple[int, Dict[str, Tuple[int, int]], bool]:
     try:
         with open(path, "r", encoding="utf-8") as f:
             original_text = f.read()
@@ -105,7 +109,7 @@ def process_file(path: str, ratio: float, min_true: int, dry_run: bool = False) 
         return 0, {}, False
 
     changes, stats = rebalance(data, ratio, min_true)
-    formatted = format_entries(data)
+    formatted = format_entries(data, group_by)
     needs_format = formatted != original_text
 
     wrote_file = (changes > 0 or needs_format) and not dry_run
@@ -123,6 +127,12 @@ def main():
     parser.add_argument("--ratio", type=float, default=0.2, help="premium 비율 (기본: 0.2)")
     parser.add_argument("--min-true", type=int, default=1, help="그룹당 최소 premium 개수 (기본: 1)")
     parser.add_argument("--dry-run", action="store_true", help="파일을 수정하지 않고 결과만 표시")
+    parser.add_argument(
+        "--group-by",
+        choices=("categories", "name"),
+        default="categories",
+        help="출력 항목을 묶을 기준 (기본: categories)",
+    )
 
     args = parser.parse_args()
 
@@ -135,7 +145,13 @@ def main():
 
         total_files += 1
         path = os.path.join(dirpath, "wallpapers.json")
-        changes, stats, wrote_file = process_file(path, args.ratio, args.min_true, args.dry_run)
+        changes, stats, wrote_file = process_file(
+            path,
+            args.ratio,
+            args.min_true,
+            args.dry_run,
+            args.group_by,
+        )
 
         if wrote_file:
             updated_files += 1
