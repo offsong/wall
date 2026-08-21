@@ -1,5 +1,12 @@
 [
 	{
+		"name": "icon",
+		"name_kor": "아이콘",
+		"preview1": "https://i.pinimg.com/474x/05/50/1a/05501a5b04ee605f2f7c5f7b3eaf0a4b.jpg",
+		"preview2": "https://i.pinimg.com/474x/f8/c9/76/f8c97640986e1ff2853dcbaf5f8851e6.jpg",
+		"preview3": "https://i.pinimg.com/474x/b3/8f/79/b38f79983abd901c01e086e7c1a17162.jpg"
+	},
+	{
 		"name": "MINJU",
 		"name_kor": "민주",
 		"preview1": "https://i.pinimg.com/474x/9b/6a/3f/9b6a3fc1a21ea33ea5933d538675f3a3.jpg",
