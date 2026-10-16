@@ -341,7 +341,7 @@
   { "name": "YUNA", "url": "https://i.pinimg.com/originals/0a/e2/46/0ae24663eb2d180ffee49ba6882b8498.jpg", "categories": "YUNA", "premium": true },
   { "name": "YUNA", "url": "https://i.pinimg.com/originals/02/5b/12/025b1249246ae0541a1d7d8b3b9010a5.jpg", "categories": "YUNA", "premium": true },
   { "name": "YUNA", "url": "https://i.pinimg.com/originals/f8/97/f0/f897f0d8f4a7b8871b4b3a82182cd135.jpg", "categories": "YUNA", "premium": true },
-  { "name": "YUNA", "url": "https://i.pinimg.com/originals/20/9b/15/209b159ffd48044f4f76dd413a8d0acb.jpg", "categories": "YUNA", "premium": false },
+  { "name": "YUNA", "url": "https://i.pinimg.com/originals/20/9b/15/209b159ffd48044f4f76dd413a8d0acb.jpg", "categories": "YUNA", "premium": true },
   { "name": "YUNA", "url": "https://i.pinimg.com/originals/af/44/93/af44938dfaf7d74dbe98a1a41de91c53.jpg", "categories": "YUNA", "premium": false },
   { "name": "YUNA", "url": "https://i.pinimg.com/originals/59/4c/67/594c67d60f8f5f2c39f02ff4c78648d4.jpg", "categories": "YUNA", "premium": false },
   { "name": "YUNA", "url": "https://i.pinimg.com/originals/6b/1a/c1/6b1ac12d78eed3d2689557f08d14876b.jpg", "categories": "YUNA", "premium": false },
@@ -1712,13 +1712,10 @@
   { "name": "YUNA", "url": "https://i.pinimg.com/originals/3f/8f/fd/3f8ffd93441fe2689f7c4760d2ca24e3.jpg", "categories": "YUNA", "premium": false },
   { "name": "YUNA", "url": "https://i.pinimg.com/originals/3b/ec/05/3bec0568417091c2099f30d0aa897c3c.jpg", "categories": "YUNA", "premium": false },
   { "name": "YUNA", "url": "https://i.pinimg.com/originals/3b/2c/02/3b2c024b37ff6461f07a7f6aaf5abb35.jpg", "categories": "YUNA", "premium": false },
-
-
-
-  { "name": "icon", "url": "https://i.pinimg.com/originals/0b/b3/9b/0bb39b938e569a1c13e9c54f69093791.jpg", "categories": "icon", "premium": true },
-  { "name": "icon", "url": "https://i.pinimg.com/originals/20/6c/5c/206c5cf8746d9601b21d245bf5970409.jpg", "categories": "icon", "premium": false },
-  { "name": "icon", "url": "https://i.pinimg.com/originals/5e/06/ac/5e06ac349786f25fdb9e65a5b12555e8.jpg", "categories": "icon", "premium": false },
-  { "name": "icon", "url": "https://i.pinimg.com/originals/97/a9/ee/97a9eec420a5f76fd479b92ffa9fd5bd.jpg", "categories": "icon", "premium": false },
+  { "name": "YUNA", "url": "https://i.pinimg.com/originals/0b/b3/9b/0bb39b938e569a1c13e9c54f69093791.jpg", "categories": "YUNA", "premium": false },
+  { "name": "YUNA", "url": "https://i.pinimg.com/originals/20/6c/5c/206c5cf8746d9601b21d245bf5970409.jpg", "categories": "YUNA", "premium": false },
+  { "name": "YUNA", "url": "https://i.pinimg.com/originals/5e/06/ac/5e06ac349786f25fdb9e65a5b12555e8.jpg", "categories": "YUNA", "premium": false },
+  { "name": "YUNA", "url": "https://i.pinimg.com/originals/97/a9/ee/97a9eec420a5f76fd479b92ffa9fd5bd.jpg", "categories": "YUNA", "premium": false },
 
 
 
